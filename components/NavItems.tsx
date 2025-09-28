@@ -26,7 +26,7 @@ const NavItems = () => {
               }` /* Add isActive logic here if needed */
             }
           >
-            {item.title}
+            {item.label}
           </Link>
         </li>
       ))}
